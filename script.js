@@ -30,7 +30,7 @@ var ul = document.querySelector('ul');
 function darkMode() {
     var body = document.body;
     var titleBorder = document.getElementById('title-section');
-    var themeButton = [...document.getElementsByTagName('button')];
+    var themeButton = [...document.getElementsByClassName('theme-button')];
     var listInput = document.getElementById("list-input");
     var listSection = document.getElementById("list-section");
     body.classList.add('dark');
