@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+
+    <title>List Genie</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!-- Google Fonts -->
+    <!-- font-family: 'Poppins', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    <!-- font-family: 'Montserrat', sans-serif; -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body class="light">
+    <div id="title-section" class="flex-container light-border">
+        <header>
+            <h1 id="title">List Genie</h1>
+            <h2 id="sub-title">A tool for creating lists.</h2>
+        </header>
+        <div>
+            <nav>
+                <button id="light-mode" class="light-button">Light</button>
+                <button id="dark-mode" class="light-button">Midnight</button>
+                <button id="clear-list" class="light-button">Start Over</button>
+            </nav>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="input-section">
+            <input id="list-input" class="light-input" type="text" autocomplete="on" placeholder="Enter a list item...">
+            <button id="enter-item" class="light-button">Add Item</button>
+        </div>
+        <div id="list-section" class="list-section light-border">
+            <h2 id="empty-list" class="empty-list">List is Currently Empty</h2>
+            <ul></ul>
+        </div>
+    </div>
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
