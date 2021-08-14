@@ -166,3 +166,30 @@ ul {
 .light-border {
     border: 2px solid rgb(0, 0, 0);
 }
+
+/****************************************************************
+
+************************* MEDIA SCREEN ONLY STYLES **************
+
+*****************************************************************/
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .input-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        height: 100px;
+    }
+
+    .list-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
