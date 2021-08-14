@@ -177,13 +177,20 @@ ul {
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin: 40px;
+        padding: 40px;
+    }
+
     .input-section {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
         flex-wrap: wrap;
-        height: 100px;
     }
 
     .list-section {
